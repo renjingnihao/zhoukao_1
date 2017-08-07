@@ -1,0 +1,193 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  text-decoration: none; }
+
+@font-face {
+  font-family: "fonts";
+  src: url(../iconfonts/iconfont.ttf), url(../iconfonts/iconfont.svg), url(../iconfonts/iconfont.woff), url(../iconfonts/iconfont.eot); }
+#wrapBox {
+  font-size: .16rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  background: #eee;
+  display: -webkit-flex;
+  -webkit-flex-direction: column; }
+
+.header {
+  height: .44rem;
+  line-height: .44rem;
+  position: relative;
+  display: -webkit-flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background: #fff;
+  text-align: center; }
+  .header h2 {
+    width: 40%;
+    font-size: 15px;
+    font-weight: normal;
+    height: 100%;
+    display: flex;
+    justify-content: space-around; }
+    .header h2 span {
+      display: inline-block; }
+    .header h2 .span_color {
+      color: red;
+      border-bottom: 1px solid red; }
+    .header h2 small {
+      position: absolute;
+      top: 0px;
+      right: 10px;
+      font-size: 13px;
+      color: #999; }
+
+.content {
+  -webkit-flex: 1;
+  overflow-y: scroll;
+  position: relative; }
+  .content .pro_con {
+    width: 100%;
+    height: 0.5rem;
+    /*   position: fixed;
+    top:0.44rem;
+    left: 0px; */
+    margin-top: 5px; }
+    .content .pro_con p {
+      width: 90%;
+      height: 80%;
+      line-height: 0.5rem;
+      margin-left: 5%;
+      border: 2px solid #ccc;
+      line-height: 0.5rem;
+      border-radius: 0.15rem; }
+      .content .pro_con p span {
+        width: 31%;
+        height: 100%;
+        text-align: center;
+        display: inline-block; }
+        .content .pro_con p span:nth-child(1) {
+          border-right: 2px solid #ccc;
+          border-top-left-radius: 0.15rem;
+          border-bottom-left-radius: 0.15rem; }
+        .content .pro_con p span:nth-child(2) {
+          border-right: 2px solid #ccc; }
+  .content .span_con {
+    background: red;
+    color: #fff; }
+  .content .pps {
+    width: 100%;
+    height: 0.45rem;
+    line-height: 0.45rem;
+    display: flex;
+    background: #fff;
+    justify-content: space-between;
+    align-items: center; }
+    .content .pps span {
+      width: 21%;
+      display: inline-block;
+      height: 100%;
+      line-height: 0.45rem;
+      text-align: center;
+      font-size: 12px; }
+  .content .main {
+    height: 1.1rem;
+    position: relative;
+    width: 100%;
+    background: #fff; }
+    .content .main small {
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      width: 0.5rem;
+      height: 0.5rem; }
+      .content .main small img {
+        width: 100%;
+        height: 100%; }
+    .content .main p {
+      width: 80%;
+      height: 0.35rem;
+      line-height: 0.35rem;
+      font-size: 11px;
+      margin-left: 40px; }
+      .content .main p span {
+        position: absolute;
+        top: 4px;
+        right: 10px;
+        width: 0.55rem;
+        height: 0.25rem;
+        line-height: 0.25rem;
+        font-size: 10px;
+        text-align: center;
+        display: inline-block;
+        border: 1px solid #7FDD81;
+        border-radius: 0.11rem;
+        padding-left: -10px; }
+    .content .main h2 {
+      font-size: 10px;
+      font-weight: normal;
+      width: 90%;
+      height: 0.35rem;
+      margin-left: 30px;
+      display: flex; }
+      .content .main h2 span {
+        width: 19%;
+        height: 100%;
+        display: inline-block;
+        text-align: center;
+        line-height: 0.35rem; }
+        .content .main h2 span img {
+          width: 79%;
+          height: 40%; }
+      .content .main h2 .main_color {
+        color: skyblue; }
+    .content .main .pps {
+      width: 100%;
+      height: 0.35rem;
+      font-size: 10px;
+      font-weight: normal;
+      line-height: 0.35rem;
+      display: flex;
+      background: #fff;
+      justify-content: space-between;
+      align-items: center; }
+      .content .main .pps span {
+        width: 21%;
+        display: inline-block;
+        height: 100%;
+        line-height: 0.45rem;
+        text-align: center;
+        font-size: 12px; }
+
+.footer {
+  height: .88rem;
+  text-align: center;
+  border-top: 1px solid #ccc;
+  background: red;
+  display: flex;
+  flex-wrap: wrap; }
+  .footer p {
+    width: 100%;
+    height: 0.44rem;
+    background: #fff;
+    display: flex; }
+    .footer p a {
+      width: 25%; }
+  .footer h2 {
+    width: 100%;
+    height: 0.44rem;
+    background: #333;
+    display: flex; }
+    .footer h2 a {
+      width: 20%;
+      color: #fff; }
+  .footer .color_a {
+    color: #FA3636; }
+
+.pps_span {
+  color: red; }
+
+/*# sourceMappingURL=style.css.map */
